@@ -10,8 +10,8 @@ import org.apache.maven.plugins.annotations.Mojo;
 public class SimpleMavenPlugin extends AbstractMojo {
     @Override
     public void execute() throws MojoExecutionException, MojoFailureException {
-        String name="Taha";
-        String lastName="Kılıç";
+        String name="Ali";
+        String lastName="Demir";
         getLog().info("Adınız:"+name+"\n Soyadınız:"+lastName);
     }
 }
